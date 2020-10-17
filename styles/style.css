@@ -1,0 +1,262 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Regular;
+  src: url(../fonts/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+  font-family: light;
+  src: url(../fonts/TitilliumWeb-Light.ttf);
+}
+
+@font-face {
+  font-family: bold;
+  src: url(../fonts/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+  font-family: extraLight;
+  src: url(../fonts/TitilliumWeb-ExtraLight.ttf);
+}
+
+body {
+  font-family: 'Regular';
+  overflow-x: hidden;
+  color: white;
+  background-color: #222222;
+}
+
+#navbar .wrapper {
+  margin: 0 auto;
+  width: 100vw;
+  height: 13vh;
+  padding-top: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  position: fixed;
+  color: white;
+  z-index: 1000;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#navbar .wrapper .navItem {
+  margin: 0 1.5vw;
+}
+
+#navbar .sticky {
+  color: black;
+  background-color: white;
+  padding-top: 0;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+#navbar .main-image {
+  background: url(../assets/face.jpg) no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../assets/face.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/face.jpg") no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-size: 137%;
+}
+
+#navbar .who {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+#navbar .who .hello {
+  font-family: 'light';
+  font-size: 70px;
+}
+
+#navbar .who .name {
+  font-family: 'bold';
+  font-size: 75px;
+}
+
+#navbar .who .rezume {
+  font-family: 'light';
+  font-size: 30px;
+  color: #bdbdbd;
+}
+
+#my-rezume {
+  height: 200vh;
+  background-color: #222222;
+}
+
+#my-rezume .title {
+  color: white;
+  text-align: center;
+  padding-top: 17vh;
+  font-size: 35px;
+  font-family: 'extraLight';
+}
+
+#my-rezume .title span {
+  font-family: 'bold';
+}
+
+#my-rezume .wrapper {
+  width: 76vw;
+  margin: 0 auto;
+  height: 114vh;
+  margin-top: 11vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#my-rezume .wrapper .education {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  font-family: 'extraLight';
+}
+
+#my-rezume .wrapper .exp {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  font-family: 'extraLight';
+}
+
+#my-rezume .wrapper .cart {
+  width: 31vw;
+  height: 29vh;
+  background: #333333;
+  border-radius: 5px;
+  margin-top: 10vh;
+  padding: 5vh;
+}
+
+#my-rezume .wrapper .cart .titleCart {
+  font-family: 'extraLight';
+  color: #BAC964;
+}
+
+#my-rezume .wrapper .cart .descr {
+  font-family: 'extraLight';
+  color: #9e9c9c;
+  margin: 3vh 0;
+}
+
+#my-rezume .wrapper .cart .place {
+  font-family: 'extraLight';
+  color: #9e9c9c;
+  margin-top: 3vh;
+  font-size: 16px;
+}
+
+#my-rezume .wrapper .cart svg {
+  margin-right: 2vh;
+  width: 17px;
+}
+
+#my-rezume .wrapper .cart .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2vh;
+}
+
+#my-rezume .wrapper .cart .date h3 {
+  font-size: 14px;
+  padding-top: 0.3vh;
+}
+
+#about-me {
+  margin-top: 11vh;
+}
+
+#about-me .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto 14vw;
+  width: 81%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 24vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about-me .img {
+  background: url(../assets/face.jpg) no-repeat;
+  width: 38vw;
+  height: 61vh;
+  background-position: center;
+  background-size: cover;
+}
+
+#about-me .info {
+  max-width: 39vw;
+}
+
+#about-me .info .title {
+  font-family: 'extraLight';
+  margin-bottom: 6vh;
+  font-size: 40px;
+}
+
+#about-me .info .title span {
+  font-family: 'bold';
+}
+
+#about-me .info p {
+  color: #9e9c9c;
+  margin: 5vh 0;
+}
+
+#about-me .info .buttons {
+  font-family: 'light';
+}
+
+#about-me .info .buttons .Hire-Me {
+  color: white;
+  text-transform: uppercase;
+  padding: 0.5rem 1.6rem;
+  border-radius: 30px;
+  background-color: #BAC964;
+  letter-spacing: 4px;
+  margin-right: 1vw;
+  cursor: pointer;
+}
+
+#about-me .info .buttons .CV {
+  color: white;
+  text-transform: uppercase;
+  padding: 0.5rem 1.6rem;
+  border-radius: 30px;
+  background-color: #9e9c9c;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
