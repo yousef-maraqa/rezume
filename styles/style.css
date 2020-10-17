@@ -259,4 +259,68 @@ body {
   letter-spacing: 4px;
   cursor: pointer;
 }
+
+#about-me .info .buttons .CV:hover {
+  background-color: #8a8686;
+}
+
+#about-me .info .buttons .Hire-Me:hover {
+  background-color: #85962f;
+}
+
+#services .title {
+  text-align: center;
+  font-size: 34px;
+}
+
+#services .wrapper {
+  height: 80vh;
+  width: 69vw;
+  margin: 0 auto;
+  margin-top: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#services .serve {
+  width: 22vw;
+  height: 65vh;
+  background-color: #333333;
+  border-radius: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+#services .serve p {
+  text-align: center;
+  margin-top: 4vh;
+  color: #9e9c9c;
+  font-family: 'light';
+}
+
+#services .serve h1 {
+  margin: 3vh 0;
+  font-family: 'extraLight';
+}
+
+#services .serve img {
+  margin-top: 4vh;
+  width: 22%;
+  height: 11%;
+  background-color: #BAC964;
+  padding: 1.8rem 1rem;
+  border-radius: 50%;
+}
 /*# sourceMappingURL=style.css.map */
