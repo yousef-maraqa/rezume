@@ -286,6 +286,10 @@ body {
           justify-content: space-between;
 }
 
+#services .wrapper .height {
+  height: 61vh;
+}
+
 #services .serve {
   width: 22vw;
   height: 65vh;
@@ -322,5 +326,123 @@ body {
   background-color: #BAC964;
   padding: 1.8rem 1rem;
   border-radius: 50%;
+}
+
+#getInTouch .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70vw;
+  margin: 0 auto;
+}
+
+#getInTouch .main-title {
+  font-weight: normal;
+  font-family: 'extraLight';
+  text-align: center;
+  margin: 19vh 0;
+  font-size: 36px;
+}
+
+#getInTouch .main-title span {
+  font-family: 'bold';
+}
+
+#getInTouch .form {
+  -webkit-box-flex: 0.8;
+      -ms-flex: 0.8;
+          flex: 0.8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+#getInTouch .form .title {
+  margin-bottom: 7vh;
+}
+
+#getInTouch form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+#getInTouch form a {
+  text-decoration: none;
+  background-color: #BAC964;
+  width: 20%;
+  padding: 14px;
+  border-radius: 30px;
+  color: white;
+  margin-top: 6vh;
+  letter-spacing: 2px;
+}
+
+#getInTouch form input[type=text], #getInTouch form input[type=email], #getInTouch form input[type=number] {
+  color: white;
+  width: 93%;
+  padding: 12px 20px;
+  margin: 1vh 0;
+  display: inline-block;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  background-color: #333333;
+  height: 7.5vh;
+}
+
+#getInTouch form ::-webkit-input-placeholder {
+  font-family: 'light';
+}
+
+#getInTouch form :-ms-input-placeholder {
+  font-family: 'light';
+}
+
+#getInTouch form ::-ms-input-placeholder {
+  font-family: 'light';
+}
+
+#getInTouch form ::placeholder {
+  font-family: 'light';
+}
+
+#getInTouch form textarea, #getInTouch form select {
+  margin-top: 1vh;
+  width: 86%;
+  color: white;
+  outline: none;
+  background-color: #333333;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  resize: vertical;
+  padding: 1.5rem;
+  overflow: auto;
+}
+
+#getInTouch .details .wrapper .title {
+  margin-bottom: 7vh;
+}
+
+#getInTouch .details .wrapper .innerWrapper .subTilte {
+  color: #456686;
+  font-family: 'extraLight';
+  font-size: 15px;
+  margin: 2vh 0;
+}
+
+#getInTouch .details .wrapper .innerWrapper .info {
+  color: #747171;
+  font-family: 'extraLight';
 }
 /*# sourceMappingURL=style.css.map */

@@ -292,6 +292,8 @@
 
         #services{
 
+           
+
             .title{
                 text-align: center;
     font-size: 34px;
@@ -305,6 +307,9 @@
                 margin-top: 15vh;
                 display: flex;
                 justify-content: space-between;
+                .height{
+                    height: 61vh;
+                }
             }
 
             .serve{
@@ -341,6 +346,122 @@
             }
 
         }
+        
+
+
+
+
+        #getInTouch{
+
+            .container{
+                display: flex;
+                width: 70vw;
+                margin: 0 auto;
+            }
+
+
+        .main-title{
+            font-weight: normal;
+            font-family: 'extraLight';
+            text-align: center;
+            margin: 19vh 0;
+            font-size: 36px;
+            span{font-family: 'bold';}
+            
+        }
+
+        
+
+
+        .form{
+            flex: 0.8;
+            display: flex;
+            flex-flow: column;
+            .title{margin-bottom: 7vh;}
+        }
+
+        form{
+
+
+            display: flex;
+    flex-flow: column;
+
+    a{
+        text-decoration: none;
+    background-color: $maingreen;
+    width: 20%;
+    padding: 14px;
+    border-radius: 30px;
+    color: white;
+    margin-top: 6vh;
+    letter-spacing: 2px;
+    }
+
+    input[type=text],input[type=email],input[type=number]{
+        color: white;
+        width: 93%;
+  padding: 12px 20px;
+  margin: 1vh 0;
+  display: inline-block;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  background-color: #333333;
+  height: 7.5vh;
+    }
+    ::placeholder {
+        font-family: 'light';
+      
+        
+      }
+
+      textarea , select{
+          margin-top: 1vh;
+          width: 86%;
+          color: white;
+          outline: none;
+          background-color: #333333;
+          border: 1px solid #333333;
+          border-radius: 4px;
+          resize: vertical;
+          padding: 1.5rem;
+          overflow: auto;
+      }
+        }
+        
+
+
+
+
+
+
+
+
+        
+
+    }
+
+    #getInTouch{
+        .details{
+            .wrapper{
+                .title{margin-bottom: 7vh;}
+                .innerWrapper{
+                    
+                    .subTilte{
+                        color: #456686;
+                        font-family: 'extraLight';
+                        font-size: 15px;
+                        margin: 2vh 0;
+                    }
+                    .info{
+                        color: #747171;
+                        font-family: 'extraLight';
+                    }
+                }
+            }
+        }
+}
         
       
 
