@@ -294,10 +294,6 @@ body {
           justify-content: space-between;
 }
 
-#services .wrapper .height {
-  height: 61vh;
-}
-
 #services .serve {
   width: 22vw;
   height: 65vh;
@@ -334,6 +330,12 @@ body {
   background-color: #BAC964;
   padding: 1.8rem 1rem;
   border-radius: 50%;
+}
+
+#services .serve:hover {
+  height: 60vh;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
 }
 
 #getInTouch .container {
@@ -452,5 +454,32 @@ body {
 #getInTouch .details .wrapper .innerWrapper .info {
   color: #747171;
   font-family: 'extraLight';
+}
+
+#social .wrapper {
+  width: 18vw;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 21vh;
+  margin-bottom: 9vh;
+}
+
+#social a {
+  padding: 16px;
+  background: #333333;
+  border-radius: 50%;
+}
+
+#social img {
+  width: 48px;
+  height: 36px;
+}
+
+#social img svg {
+  fill: #BAC964;
 }
 /*# sourceMappingURL=style.css.map */
