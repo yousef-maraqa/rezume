@@ -116,6 +116,7 @@
 
 
         .title{
+            font-weight: normal;
             color: white;
             text-align: center;
     padding-top: 17vh;
@@ -228,6 +229,7 @@
     max-width: 39vw;
 
     .title{
+        font-weight: normal;
         font-family: 'extraLight';
         margin-bottom: 6vh;
         font-size: 40px;
@@ -295,8 +297,14 @@
            
 
             .title{
+                font-family: 'extraLight';
+                font-weight: normal;
                 text-align: center;
     font-size: 34px;
+    span{
+        font-family: 'bold';
+
+    }
             }
 
             .wrapper{
