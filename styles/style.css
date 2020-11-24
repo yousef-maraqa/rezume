@@ -66,13 +66,12 @@ body {
 }
 
 #navbar .main-image {
-  background: url(../assets/face.jpg) no-repeat;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../assets/face.jpg") no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/face.jpg") no-repeat;
+  background: url(../assets/gif.gif) no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../assets/gif.gif") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/gif.gif") no-repeat;
   height: 100vh;
   background-size: cover;
   background-position: center;
-  background-size: 137%;
 }
 
 #navbar .who {
@@ -102,7 +101,7 @@ body {
 }
 
 #my-rezume {
-  height: 200vh;
+  height: 106vh;
   background-color: #222222;
 }
 
@@ -260,6 +259,7 @@ body {
   background-color: #9e9c9c;
   letter-spacing: 4px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 #about-me .info .buttons .CV:hover {
