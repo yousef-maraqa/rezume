@@ -134,6 +134,7 @@
         height: 114vh;
         margin-top: 11vh;
         display: flex;
+        flex-wrap: wrap;
 
             .education{
                 flex: 0.5;
@@ -149,6 +150,11 @@
             .cart{
                 width: 31vw;
     height: 29vh;
+    @media only screen and (max-width: 600px) {
+        width: 65vw;
+   height: 35vh;
+
+   }
     background: #333333;
     border-radius: 5px;
     margin-top: 10vh;
@@ -203,6 +209,10 @@
 
     #about-me{
         margin-top: 11vh;
+        @media only screen and (max-width: 600px) {
+            margin-top: 81vh; 
+
+        }
         .container{
             display: flex;
     margin: auto 14vw;
@@ -272,6 +282,10 @@
             border-radius: 30px;
             background-color: $darkgray;
             letter-spacing: 4px;
+            @media only screen and (max-width: 600px) {
+                padding: 0.5rem 1.1rem;
+                letter-spacing: 0px;
+           }
             
             cursor: pointer;
             text-decoration: none;
@@ -369,6 +383,7 @@
                 display: flex;
                 width: 70vw;
                 margin: 0 auto;
+                flex-wrap: wrap-reverse;
             }
 
 
@@ -389,7 +404,12 @@
             flex: 0.8;
             display: flex;
             flex-flow: column;
-            .title{margin-bottom: 7vh;}
+            .title{margin-bottom: 7vh;
+                @media only screen and (max-width: 600px) {
+                    
+                    margin-top: 8vh;
+                }
+            }
         }
 
         form{
@@ -407,6 +427,11 @@
     color: white;
     margin-top: 6vh;
     letter-spacing: 2px;
+    @media only screen and (max-width: 600px) {
+        width: 90%;
+        text-align: center;
+
+    }
     }
 
     input[type=text],input[type=email],input[type=number]{
@@ -494,7 +519,12 @@
     }
 a{padding: 16px;
     background: #333333;
-    border-radius: 50%;}
+    border-radius: 50%;
+    @media only screen and (max-width: 600px) {
+        
+        margin: 0 4vw;
+    }
+}
     img{
         width: 48px;
     height: 36px;
