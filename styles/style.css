@@ -156,7 +156,7 @@ body {
 @media only screen and (max-width: 600px) {
   #my-rezume .wrapper .cart {
     width: 65vw;
-    height: 35vh;
+    height: 48vh;
   }
 }
 
@@ -370,6 +370,15 @@ body {
       flex-wrap: wrap-reverse;
 }
 
+@media only screen and (max-width: 600px) {
+  #getInTouch .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
+  }
+}
+
 #getInTouch .main-title {
   font-weight: normal;
   font-family: 'extraLight';
@@ -524,5 +533,77 @@ body {
 
 #social img svg {
   fill: #BAC964;
+}
+
+#projects .title {
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  padding-bottom: 20vh;
+  font-size: 35px;
+  font-family: 'extraLight';
+}
+
+#projects .title span {
+  font-family: 'bold';
+}
+
+#projects .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+@media only screen and (max-width: 600px) {
+  #projects .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+#projects .container .project {
+  width: 25%;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #projects .container .project {
+    width: 50%;
+  }
+}
+
+#projects .container .project img {
+  width: 20rem;
+  height: 20rem;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#projects .container .project img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+figure {
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  #projects {
+    margin-top: 93vh;
+  }
 }
 /*# sourceMappingURL=style.css.map */
